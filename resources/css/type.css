@@ -11,10 +11,12 @@ body {
 }
 
 #typed-text {
-  white-space: pre;
+  white-space: pre-wrap;  
   border-right: 2px solid black;
   padding-right: 5px;
   animation: blink 1s step-end infinite;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes blink {
