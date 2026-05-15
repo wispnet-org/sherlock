@@ -17,8 +17,14 @@ body {
   animation: blink 1s step-end infinite;
   justify-content: center;
   align-items: center;
+  cursor: default;
 }
 
+a {
+  text-decoration: none;
+  cursor: default;
+  color: inherit;
+}
 @keyframes blink {
   50% { border-color: transparent; }
 }
